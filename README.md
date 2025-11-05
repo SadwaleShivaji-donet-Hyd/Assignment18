@@ -33,3 +33,32 @@ ImageProcessingParallel/
 ├── Program.cs # Main source code
 ├── input/ # Folder containing original images
 └── output/ # Folder for resized thumbnails
+
+🖼️ About SixLabors.ImageSharp
+
+SixLabors.ImageSharp
+ is a fully managed, cross-platform, open-source image processing library for .NET.
+
+✨ Key Features:
+
+Supports common formats: JPG, PNG, BMP, GIF, TIFF, WebP
+
+High-performance and thread-safe
+
+Cross-platform (Windows, Linux, macOS)
+
+Provides an easy, fluent API for:
+
+Loading and saving images
+
+Resizing, rotating, cropping
+
+Drawing, color adjustment, and more
+
+🔧 Why Use It?
+
+Replaces System.Drawing (which is Windows-only and not supported in modern .NET versions)
+
+Safe for use in parallel and multi-threaded operations
+
+Works seamlessly in console, web, and cloud apps
